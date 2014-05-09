@@ -3,4 +3,5 @@ def swap(alist, index):
     b = alist[index+1]
     alist[index] = b
     alist[index+1] = a
-    return (alist)
+    return (list)
+#switches a and b
