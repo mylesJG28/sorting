@@ -5,10 +5,10 @@ def swap(alist, index):
     The function takes a list and an index as inputs, and out outputs a list with two items swapped
     '''
     a = alist[index] # sets the variable and puts the indexth item of alist into it.
-    b = alist[index+1]
-    alist[index] = b
-    alist[index+1] = a
-    return (alist)
+    b = alist[index+1] # sets the variable and puts the index item of alist+1 into it
+    alist[index] = b # sets the variable of index to b
+    alist[index+1] = a # sets the variable of index+1 to a 
+    return (alist) # returns alist
 
 def bsort(alist):
     swaps = True
