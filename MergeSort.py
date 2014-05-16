@@ -25,7 +25,7 @@ def bsort(alist):
 def mini(alist):
     answer = alist[0]
     for item in alist:
-        if item< answer:
+        if item< answer:#if the item is smaller than the answer then the answer is the item
             answer = item
     return (answer)
 
