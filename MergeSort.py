@@ -8,9 +8,11 @@ def swap(alist, index):
     b = alist[index+1] # sets the variable and puts the index item of alist+1 into it
     alist[index] = b # sets the variable of index to b
     alist[index+1] = a # sets the variable of index+1 to a 
-    return (alist) # returns alist
-
+    return (alist) # returns 
+    
 def bsort(alist):
+    ''' this function sees if it needs to be swapped or not ''' 
+    
     swaps = True
     while swaps:#if this is true keep the code going
         swaps = False #makes item called awaps and sets it to false
