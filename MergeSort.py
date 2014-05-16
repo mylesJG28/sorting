@@ -12,7 +12,7 @@ def swap(alist, index):
 
 def bsort(alist):
     swaps = True
-    while swaps:
+    while swaps:#if this is true keep the code going
         swaps = False #makes item called awaps and sets it to false
         for i in range(len(alist)-1):
             if (alist[i] > alist[i+1]):
