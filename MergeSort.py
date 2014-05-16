@@ -13,7 +13,7 @@ def swap(alist, index):
 def bsort(alist):
     swaps = True
     while swaps:
-        swaps = False
+        swaps = False #makes item called awaps and sets it to false
         for i in range(len(alist)-1):
             if (alist[i] > alist[i+1]):
                 alist = swap(alist, i)
@@ -64,3 +64,4 @@ def mergeSort(alist)
         result.extend(mergeSort(right))
  
     return result
+ #Shows results of test
